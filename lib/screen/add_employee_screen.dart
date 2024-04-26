@@ -3,7 +3,7 @@ import 'package:firebase_database/firebase_database.dart';
 
 class AddEmployeeScreen extends StatelessWidget{
   final TextEditingController nameController=
-      TextEditingController();
+  TextEditingController();
   final TextEditingController positionController= TextEditingController();
   Widget build(BuildContext context) {
     return Scaffold(
